@@ -6,12 +6,12 @@ use App\Libraries\OperationBuilder;
 use App\Services\TaxService;
 use LaravelZero\Framework\Commands\Command;
 
-class OperateStocks extends Command
+class Stocks extends Command
 {
     /**
      * @var string
      */
-    protected $signature = 'operateStocks {operations : The stocks operations json (opitional) }';
+    protected $signature = 'operate {operations : The stocks operations json (required) }';
 
     /**
      * @var string
