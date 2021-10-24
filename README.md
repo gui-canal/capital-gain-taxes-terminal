@@ -17,9 +17,10 @@ Inside of the project`s directory type the commands ***stocks*** and ***operate*
 ```
 $ php stocks operate [YOUR JSON ARRAY OF OPERATIONS]
 ```
-###Example
+Example
+------
 If you type a correct Json Array, the application must return the tax for each operation:
-```json lines
+```
 $ php stocks operate '[{"operation":"buy", "unit-cost":10, "quantity": 10000}, {"operation":"sell", "unit-cost":20, "quantity": 5000}]'
 > [{"tax":0},{"tax":10000}]
 ```
